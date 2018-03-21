@@ -101,9 +101,6 @@ a {
           box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
   z-index: 99;
 }
-.menu .active {
-  color: black;
-}
 .menu a {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -112,7 +109,7 @@ a {
       align-self: center;
   line-height: 20px;
   text-align: center;
-  color: #555555;
+  color: #666;
 }
 .menu a i {
   font-size: 1.35rem;
@@ -121,11 +118,17 @@ a {
 .menu a .icon-name {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   display: block;
 }
 .menu a:hover {
   color: black;
+}
+.menu .active {
+  color: black;
+}
+.menu .active .icon-name{
+  font-weight: 700;
 }
 @media (min-width: 800px) {
   .menu {
