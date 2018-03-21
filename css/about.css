@@ -1,0 +1,29 @@
+#about{
+ padding: 3rem 0;
+}
+.row img{
+    width: 100%;
+}
+h4{
+    font-weight: 400;
+    margin: 1.5rem auto;
+}
+a{
+    font-weight: 500;
+    color: black;
+}
+a h4{
+    margin: 0.25rem 0;
+}
+
+@media (min-width: 800px){
+    #about{
+        position: relative;
+        top: 80px;
+    }
+    #about .row img{
+        width: 40%;
+        position: relative;
+        margin-left: 30%;
+    }
+}

@@ -1,0 +1,145 @@
+@import "grid.css";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-size: 100%;
+  background: transparent;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: white;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.35rem;
+}
+
+p {
+  font-size: 1.35rem;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.m-container {
+  height: inherit;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 0em;
+  padding: 0.25rem 0;
+  font-weight: 500;
+  color: black;
+  position: relative;
+}
+.cta span {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 25%;
+  background: black;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+.cta:hover span {
+  width: 100%;
+}
+
+.menu {
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: white;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+.menu .active {
+  color: black;
+}
+.menu a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -ms-flex-item-align: center;
+      align-self: center;
+  line-height: 20px;
+  text-align: center;
+  color: #555555;
+}
+.menu a i {
+  font-size: 1.35rem;
+  vertical-align: middle;
+}
+.menu a .icon-name {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.9rem;
+  display: block;
+}
+.menu a:hover {
+  color: black;
+}
+@media (min-width: 800px) {
+  .menu {
+    height: 80px;
+    top: 0;
+  }
+  .menu .m-container i {
+    font-size: 1.65rem;
+  }
+  .menu .m-container .icon-name {
+    display: inline;
+    vertical-align: middle;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-left: 0.5rem;
+  }
+}

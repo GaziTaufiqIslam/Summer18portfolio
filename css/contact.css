@@ -1,0 +1,33 @@
+#contact{
+    height: calc(100vh - 65px);
+}
+.container{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+h3{
+    margin: 0.25rem 0;
+}
+a{
+    color: black;
+}
+.g-form{
+    margin: 5rem 0 1rem;
+    font-weight: 400;
+}
+@media (min-width: 800px){
+    #contact{
+        position: relative;
+        top: 80px;
+        height: calc(100vh - 80px)
+    }
+    #contact a{
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+    #contact .cta{
+        font-size: 1.75rem;
+    }
+}
