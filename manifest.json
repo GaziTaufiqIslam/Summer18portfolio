@@ -20,5 +20,6 @@
     "theme_color": "#666",
     "background_color": "#fff",
     "start_url": "index.html",
-    "display": "standalone"
+    "display": "standalone",
+    "orientation": "potrait"
   }
