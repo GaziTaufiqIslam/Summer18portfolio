@@ -1,6 +1,11 @@
-.col-4{
+.col-4:nth-child(odd){
     padding-right: 1rem;
+}
+.col-4{
     margin-bottom: 1.5rem;
+}
+.container{
+    max-width: 1000px;
 }
 .col-4 img{
     width: 100%;
@@ -12,5 +17,8 @@
     #works{
         position: relative;
         top: 80px;
+    }
+    .col-4:nth-child(even){
+        padding-right: 1rem;
     }
 }

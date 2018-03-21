@@ -1,0 +1,31 @@
+#social{
+    margin: 3rem 0 15vh;
+}
+.row{
+    margin: 1.5rem auto;
+}
+h3{
+    margin-bottom: 0.5rem;
+}
+h5{
+    font-weight: 400;
+}
+.cta{
+    margin: 1rem auto;
+    font-weight: 700;
+}
+#works .cta {
+    font-weight: 500;
+}
+.col-right{
+    display: none;
+}
+@media (min-width: 800px){
+    .col-left{
+        flex: 0 0 80%;
+    }
+    .col-right{
+        display: block;
+        flex: 0 0 20%;
+    }
+}

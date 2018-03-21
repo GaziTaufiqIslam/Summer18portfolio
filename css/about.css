@@ -1,18 +1,22 @@
 #about{
- padding: 3rem 0;
+ padding: 3rem 0 15vh;
 }
 .row img{
     width: 100%;
+    margin-bottom: 10%;
+}
+h3{
+    margin-bottom: 3rem;
 }
 h4{
     font-weight: 400;
-    margin: 1.5rem auto;
+    margin: 0 auto 2.5rem;
 }
 a{
     font-weight: 500;
     color: black;
 }
-a h4{
+a h3{
     margin: 0.25rem 0;
 }
 
@@ -21,9 +25,16 @@ a h4{
         position: relative;
         top: 80px;
     }
-    #about .row img{
-        width: 40%;
-        position: relative;
-        margin-left: 30%;
+    .row img{
+        margin: -20% 0 0 0;
+    }
+    .col-left{
+        flex: 0 0 80%;
+        max-width: 80%;
+        padding-right: 10%;
+    }
+    .col-right{
+        flex: 0 0 20%;
+        max-width: 20%;
     }
 }
