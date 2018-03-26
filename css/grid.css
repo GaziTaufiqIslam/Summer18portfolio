@@ -26,11 +26,6 @@
     padding: 0 4px;
   }
 
-  .col-4 img {
-    margin-top: 8px;
-    vertical-align: middle;
-  }
-
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media (max-width: 800px) {
     .col-4 {

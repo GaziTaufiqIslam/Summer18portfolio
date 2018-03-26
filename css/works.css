@@ -1,6 +1,9 @@
 #works{
     padding: 3rem 0 10vh;
 }
+h2{
+    margin-bottom: 1.5rem;
+}
 h6{
     font-weight: 500;
     color: #666;
@@ -8,8 +11,9 @@ h6{
 .col-4:nth-child(odd){
     padding-right: 1rem;
 }
-.col-4{
-    margin-bottom: 2rem;
+.col-4 a{
+    display: block;
+    margin-bottom: 1.5rem;
 }
 .container{
     max-width: 1000px;
