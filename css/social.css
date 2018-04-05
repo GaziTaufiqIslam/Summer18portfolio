@@ -22,6 +22,10 @@ h5{
     display: none;
 }
 @media (min-width: 800px){
+    #social{
+        position: relative;
+        top: 80px;
+    }
     .col-left{
         flex: 0 0 80%;
     }
