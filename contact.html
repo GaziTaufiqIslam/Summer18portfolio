@@ -38,17 +38,20 @@
 <section id="contact">
     <div class="container">
         <h4>Quick chat? Mail me at:</h4>
-        <a href="mailto:gazitaufiqislam@gmail.com">hello@gazitaufiq.com</a>
-        <h4 class="g-form">Want to hire me? </h4>
+        <a href="mailto:hello@gazitaufiq.com">hello@gazitaufiq.com</a>
+        <h4 class="g-form">Want to hire me? Fill this form instead.</h4>
   
-        <form accept-charset="UTF-8" action="https://usebasin.com/f/744d5c2f44b6" enctype="multipart/form-data" method="POST">
-          <label for="email-address">Email Address</label>
-          <input type="email" id="email" name="email" required>
-        
-          <textarea rows="4" cols="50" name="comment" required>
+        <form accept-charset="UTF-8" action="https://usebasin.com/f/5bce027eff1c" enctype="multipart/form-data" method="POST">
+          <label for="name">Your Name</label>
+          <input type="text" name="name" required>
+          <label for="email">Your Email</label>
+          <input type="email" name="email" required>
+          <label for="message">Message</label>
+          <textarea rows="4" name="message" required>
           </textarea>
           <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
-          <button type="submit">Submit</button>
+          <input type="hidden" name="bad_url"    value="http://gazitaufiq.com/error.html" />
+          <input type="submit" value="Send">
         </form>
     </div>
 </section>
