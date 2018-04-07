@@ -55,17 +55,6 @@ a {
   max-width: 800px;
   margin: 0 auto;
 }
-
-.m-container {
-  height: inherit;
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .cta {
   display: inline-block;
   margin-top: 0em;
@@ -101,6 +90,16 @@ a {
           box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
   z-index: 99;
 }
+.m-container {
+  height: inherit;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
 .menu a {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -134,6 +133,11 @@ a {
   .menu {
     height: 80px;
     top: 0;
+  }
+  .menu a{
+    -webkit-box-flex: none;
+      -ms-flex: none;
+          flex: none;
   }
   .menu .m-container i {
     font-size: 1.65rem;

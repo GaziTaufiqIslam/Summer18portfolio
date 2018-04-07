@@ -27,7 +27,7 @@ a{
         height: calc(100vh - 80px);
     }
     #contact a{
-        font-size: 3.5rem;
+        font-size: 3rem;
         font-weight: 700;
     }
     #contact .cta{

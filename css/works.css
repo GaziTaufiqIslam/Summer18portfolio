@@ -8,20 +8,17 @@ h6{
     font-weight: 500;
     color: #666;
 }
-.col-4:nth-child(odd){
+.col-2:nth-child(odd){
     padding-right: 1rem;
 }
-.col-4 a{
+.col-2 a{
     display: block;
     margin-bottom: 1.5rem;
 }
-.container{
-    max-width: 1000px;
-}
-.col-4 img{
+.col-2 img{
     width: 100%;
 }
-.col-4 a{
+.col-2 a{
     color: black;
 }
 @media (min-width: 800px){
@@ -29,7 +26,7 @@ h6{
         position: relative;
         top: 80px;
     }
-    .col-4:nth-child(even){
+    .col-2:nth-child(even){
         padding-right: 1rem;
     }
 }
