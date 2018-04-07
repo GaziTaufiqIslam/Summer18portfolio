@@ -1,14 +1,10 @@
 #contact{
     height: calc(100vh - 65px);
-}
-.container{
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+    padding: 3rem 0 10rem;
 }
 h4{
     color: #666;
+    font-weight: 400;
 }
 h3{
     margin: 0.25rem 0;
@@ -17,13 +13,50 @@ a{
     color: black;
 }
 .g-form{
-    margin: 5rem 0 1rem;
-    font-weight: 400;
+    margin: 3.5rem 0 1rem;
+}
+form{
+    display: block;
+    margin: 2rem auto 10rem;
+}
+form label{
+    font-weight: 500;
+    display: block;
+}
+form input,form textarea{
+    margin: 0.25rem auto 1.75rem;
+    width: 100%;
+    padding: 0.25rem;
+    border-bottom: 1px solid #666;
+    transition: all 250ms ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+form input:focus,form textarea:focus{
+    border-bottom:  1px solid black;
+    box-shadow: 0 1px 0 black;
+}
+.cta{
+    margin: 2rem 0 0 0;
+    padding: 0;
+    cursor: default;
+}
+.cta span{
+    width: 40%;
+    margin-top: -2px;
+}
+.submit{
+    cursor: pointer;
+    margin: 0;
+    border: none;
+    width: initial;
+    max-width: 300px;
+}
+.submit:focus{
+    border: none;
 }
 @media (min-width: 800px){
     #contact{
-        position: relative;
-        top: 80px;
+        margin-top: 80px;
         height: calc(100vh - 80px);
     }
     #contact a{
