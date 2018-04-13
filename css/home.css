@@ -10,12 +10,10 @@ header {
   }
   header .container h2 {
     line-height: 1;
-    font-family: "Rokkitt", serif;
     font-weight: 300;
   }
   header .container h1 {
     line-height: 0.8;
-    font-family: "Rokkitt", serif;
     font-weight: 700;
     margin: 5vh 0 3vh;
   }
