@@ -42,14 +42,43 @@ h2, h4{
     padding: 3rem 0;
 }
 .avatar{
+    padding-bottom: 1em;
     display: flex;
-    height: 300px;
+    height: 400px;
 }
 
 .avatar img{
     width: 300px;
     clip-path: circle(42%);
     margin: auto;
+}
+.services-wrapper{
+    background: darkslateblue;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+}
+.services-animation{
+    position: absolute;
+    width: 1300px;
+    animation: infinityWar 22s linear infinite;
+}
+.services-animation span{
+    padding: 1rem 0.5em;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    color: white;
+    line-height: 32px;
+    
+}
+
+@keyframes infinityWar{
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: -100%;
+    }
 }
 
 @media screen and (min-width: 800px){
@@ -89,9 +118,29 @@ h2, h4{
         </div>
     </div>
 
-
+    
     
 </div>
+<div class="container">
+    <h3>Services Provided</h3>
+</div>
+<div class="services-wrapper">
+    
+<div class="services-animation">
+    <span>XEROX</span>
+    <span>Colour Print</span>
+    <span>Scan</span>
+    <span>Photo</span>
+    <span>Lamination</span>
+    <span>Pan Card</span>
+    <span>Mobile Accessories</span>
+    <span>All Recharge</span>
+    <span>Bill Payment</span>
+    <span>Online Form Fillup</span>
+    <span>Aadhar Card Print</span>
+</div>
+</div>
+
 
 </body>
 </html>
